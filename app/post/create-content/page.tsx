@@ -4,7 +4,7 @@ import Container from "@/app/components/Container";
 import { useEffect, useState } from "react";
 import PostSender from "./PostSender";
 
-function page() {
+function Page() {
   const [loaded, setLoaded] = useState(true);
   useEffect(() => {
         setLoaded(true);
@@ -26,4 +26,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;
